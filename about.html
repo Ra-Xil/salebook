@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="aboutcs.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/about.css">
+
+  </head>
+  <body>
+
+    <section class="jumbotron about">
+        <div class="container aboutc">
+                <h1>VỀ CHÚNG TÔI</h1>
+                <p>Book SHOP là một nền tảng nơi người dùng có thể mua và bán sách trực tuyến.
+                    
+        
+Thông qua Book SHOP, người dùng có thể tìm kiếm một cuốn sách theo tên sách hoặc tác giả của nó, sau đó có thể thêm
+vào giỏ hàng và cuối cùng là mua bằng giao dịch trực tuyến.
+                      Người dùng cũng có thể bán sách với giá do họ ấn định.
+                        Sách sẽ bán được tải lên bằng cách nhập giá, tiêu đề, mô tả với hình ảnh của sách được đính kèm.
+                        
+                        
+                        Người dùng có thể đăng nhập bằng chi tiết tài khoản của mình hoặc khách hàng mới có thể thiết lập một tài khoản rất nhanh chóng.</p>
+        </div>    
+    
+    </section>
+
+    <section class="jumbotron team">
+            <h1>TEAM</h1>
+            <div class="content">
+                    <div class="card">
+                            <div class="card-img" style="background-image:url('images/zoro.jpg'); ">
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <a href=""> <i class="fa fa-envelope-o"></i></a>
+                                        <a href=""> <i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-content">
+                                <a href="#!">
+                                    <h2>Ra Xil</h2>
+                                    <p>B20122</p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-img" style="background-image:url(images/sanji.jpg);  ">
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <a href=""> <i class="fa fa-envelope-o"></i></a>
+                                        <a href=""> <i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-content">
+                                <a href="#!">
+                                    <h2>Trung Nhan</h2>
+                                    <p>B20122</p>
+                                </a>
+                            </div>
+                        </div>
+                        
+            </div>
+    </section>
+    
+    <script>
+            $(document).ready(function() {
+            
+            $('.card').delay(1800).queue(function(next) {
+                $(this).removeClass('hover');
+                $('a.hover').removeClass('hover');
+                next();
+            });
+        });
+        </script>
+  </body>

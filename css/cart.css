@@ -1,0 +1,15 @@
+
+:root {
+    --primary-color: #a50a06;
+    --secondary-color: #fabd0d;
+    --header-background: #2d2d2d;
+    --body-background: #F8F8F8;
+    --footer-color: #333333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*  */
